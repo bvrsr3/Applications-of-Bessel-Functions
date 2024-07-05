@@ -4,10 +4,10 @@
 Several second-order ODEs of the form 𝒚'' + 𝒑(𝒙)𝒚' + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
 
 
-Coefficients p(x), q(x) and r(x) can be functions instead of constant coefficients. Further, if they have valid Taylor series expansion about point $x_0$, it implies that they must be continuously differentiable about that point i.e. they are analytical at that point.
-If the coefficients p(x), q(x), r(x) are not analytical at point 𝑥0 but if we still require 
+Coefficients $p(x)$, $q(x)$ and $r(x)$ can be functions instead of constant coefficients. Further, if they have valid Taylor series expansion about point $x_0$, it implies that they must be continuously differentiable about that point i.e. they are analytical at that point.
+If the coefficients $p(x)$, $q(x)$, $r(x)$ are not analytical at point $𝑥_0$ but if we still require 
 a power series solution at that point, in order to exploit the larger radius of 
-convergence, we use the Frobenius method. Frobenius method masks the point of 
+convergence, we use the Frobenius method. The Frobenius method masks the point of 
 singularity, thereby creating a feasible solution at which the power series method 
 fails. Such points are called regular singular points.
 
@@ -16,51 +16,30 @@ Consider an ODE:
 $y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0$
 
 
-In above example problem p(𝑥) and q(𝑥) are undefined at 𝑥 = 0 but we can still 
-apply frobenius method if 𝑥0 is regular singular point of ODE. The solution 
-according to Frobenius is by 
-![image](https://user-images.githubusercontent.com/111849605/202916298-fed44276-fd8a-4628-80e6-78eed9504fda.png)
+In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but we can still apply the Frobenius method if $𝑥_0$ is a regular singular point of ODE. The solution, according to Frobenius, is by $y(x)=\sum_{n=0}^{\infty}{a_nx^{n+r}=x^r(a_0+a_1x+\ldots)}$.
 
-𝑥0 is the regular singular point of 
-![image](https://user-images.githubusercontent.com/111849605/202916359-913395b2-a100-4ddd-8b36-559d7a04bbfa.png)
-
-
-if (𝑥 − 𝑥0
-)𝑝(𝑥) and 
-(𝑥 − 𝑥0
-)
-2𝑞(𝑥) exist and has valid Taylor expansion about 𝑥0. The exponent r (may 
-be real or complex) number should be chosen such that 𝑎0 ≠ 0.
-Now, there exists a class of 2
-nd order, linear ODEs with variable coefficients of the 
-form: 
-
-![image](https://user-images.githubusercontent.com/111849605/202916399-86961cf9-8819-434b-9efe-39b80d110b2e.png)
-
+$𝑥_0$ is the regular singular point of $y^{\prime\prime}+p\left(x\right)y^\prime+q\left(x\right)y=0$ if $(𝑥 − 𝑥_0)𝑝(𝑥)$ and $(𝑥 − 𝑥_0)^2𝑞(𝑥)$ exists and has valid Taylor expansion about $𝑥_0$. The exponent r (may be real or complex) number should be chosen such that $𝑎_0 ≠ 0$. Now, there exists a class of 2nd order, linear ODEs with variable coefficients of the form: 
+$x^2y^{\prime\prime}+xy^\prime+{(x}^2-\ m^2)y=0$
 
 The Bessel function of the first kind of mth order is given by:
 
-J_m(x) = 
+$J_m(x)$ = 
 ![image](https://user-images.githubusercontent.com/111849605/202916125-974ac718-c023-4ff6-a9f2-b47e2b9ed031.png)
 
+$Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 
-
-![image](https://user-images.githubusercontent.com/111849605/202916433-51aa81fe-0508-4330-8598-be8d5326d4b0.png)
-
-The behaviour of the Bessel functions of first kind 𝐽𝑚 of order ‘m’ are shown 
-below:
+The behaviour of the Bessel functions of first kind 𝐽𝑚 of order ‘m’ are shown below:
 
 ![image](https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png)
 
-The behaviour of the Bessel functions of second kind 𝑌𝑚 of order ‘m’ are shown 
-below:
+The behaviour of the Bessel functions of second kind $𝑌_𝑚$ of order ‘m’ are shown below:
 
 ![image](https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png)
 
 A general solution of Bessel’s function for the Bessel ODE is given by 
-𝑦(𝑥) = 𝐶1𝐽_𝑚 + 𝐶2𝑌_m
+𝑦(𝑥) = 𝐶_1 𝐽_𝑚 + 𝐶_2 𝑌_m
 
-APPLICATION 1: CYLINDER WITH ENERGY 
+APPLICATION: CYLINDER WITH ENERGY 
 GENERATION
 
 A long solid cylinder of radius ro is initially at uniform temperature Ti. Electricity 
