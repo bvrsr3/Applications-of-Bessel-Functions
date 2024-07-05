@@ -88,7 +88,7 @@ $\frac{\partial^2\varphi}{\partial r^2}+\frac{1\partial\varphi}{r\partial r}+\fr
 The next step is to split (b) into two equations, one for Ψ(r-t) and the other 
 for ϕ(r). Let
 
-$∂2φ∂r2+1∂φr∂r=1∂φ∝∂t$ ---(c)
+$\frac{∂^2φ}{∂r^2}+\frac{1}{r}\frac{∂φ}{∂r}= \frac{1}{\alpha}\frac{∂φ}{∂t}$  ---(c)
 
 $\frac{d^2\emptyset}{dr^2}+\frac{1d\emptyset}{rdr}+\frac{q^m}{k} = 0$  ---(d)
 
