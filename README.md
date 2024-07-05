@@ -4,7 +4,7 @@
 Several second-order ODEs of the form 𝒚
 ′′ + 𝒑(𝒙)𝒚
 ′ + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of 
-$y(x)=\sum_{n=0}^{\infty}{(x-x_0)}^n$
+$y(x)=\sum_{n=0}^{\infty}(x-x_0)^n$
 practical importance have Power series solution ![image](https://user-images.githubusercontent.com/111849605/202916187-f7610de8-73a3-4251-8c33-2c582ec94679.png)
 
 if 
