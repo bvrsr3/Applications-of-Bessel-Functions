@@ -42,16 +42,16 @@ APPLICATION: CYLINDER WITH ENERGY
 GENERATION
 
 A long solid cylinder of radius ro is initially at uniform temperature Ti. Electricity 
-is suddenly passed through the cylinder resulting in volumetric heat generation rate 
+is suddenly passed through the cylinder, resulting in a volumetric heat generation rate 
 of qm. The cylinder is cooled by convection at its surface. The heat transfer 
-coefficient is considered as h and the ambient temperature is considered as T∞. The 
-objective is to determine the transient temperature of the cylinder.
+coefficient is considered as $h$, and the ambient temperature is considered as $T_\infty$. The 
+objective is to determine the transient temperature profile of the cylinder and its evolution.
 
 ![image](https://user-images.githubusercontent.com/111849605/202916632-87f27e67-30ce-47da-aca1-85c195ad8645.png)
 
 Assumptions:
-1. One dimensional conduction.
-2. Uniform h and T∞.
+1. One-dimensional conduction.
+2. Uniform $h$ and $T_\infty$.
 3. Constant conductivity.
 4. Constant diffusivity.
 5. Negligible end effect.
@@ -60,10 +60,10 @@ Assumptions:
 Governing Equations:
 To make the convection boundary condition homogeneous, we introduce the 
 following temperature variable
-θ (r,t) = T(r,t) - T∞.
+$θ (r,t) = T(r,t) -$ $T_\infty$
 
-Based on the above assumptions, gives
-![image](https://user-images.githubusercontent.com/111849605/202916684-d1567327-02f0-4df0-af1b-827bedbc45ed.png)
+Based on the above assumptions, it gives
+$\frac{\partial^2\theta}{\partial r^2}+\frac{1\partial\theta}{r\partial r}+\frac{q^m}{k}=\frac{1\partial\theta}{\propto\partial t}$
 
 Boundary and initial conditions:
 ![image](https://user-images.githubusercontent.com/111849605/202916698-af4de2b0-91d0-48af-802c-f905b65733be.png)
