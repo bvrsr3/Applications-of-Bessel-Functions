@@ -174,4 +174,4 @@ $a_k=\ \frac{2(\lambda_kr_0)(T_i-T_\infty)}{({Bi}^2+\lambda_k^2r_0^2)J_0^2(\lamb
 Complete Solution:
 Hence, the complete solution, expressed in dimensionless form, is
 
-$\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)}(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}) + \frac{1}{T_i-T_\infty}\sum{_{k=1}^{\infty}}{a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
+$\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)}\left(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right) + \frac{1}{T_i-T_\infty}\sum{_{k=1}^{\infty}}{a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
