@@ -178,5 +178,5 @@ $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-
 
 The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For more details, refer to the Python file.
 <div align="center">
-![Bessel_output1](https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0)
+ <img_src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0">
 </div>
