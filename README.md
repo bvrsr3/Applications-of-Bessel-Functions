@@ -2,7 +2,8 @@
 - This repository contains codes for plotting and visualizing Bessel functions and their applications:
 
 Several second-order ODEs of the form 𝒚'' + 𝒑(𝒙)𝒚' + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
-\newline
+
+
 Coefficients p(x), q(x) and r(x) can be functions instead of constant coefficients. Further, if they have valid Taylor series expansion about point $x_0$, it implies that they must be continuously differentiable about that point i.e. they are analytical at that point.
 If the coefficients p(x), q(x), r(x) are not analytical at point 𝑥0 but if we still require 
 a power series solution at that point, in order to exploit the larger radius of 
