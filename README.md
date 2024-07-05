@@ -12,7 +12,7 @@ singularity, thereby creating a feasible solution at which the power series meth
 fails. Such points are called regular singular points.
 Consider an ODE:
 
-![image](https://user-images.githubusercontent.com/111849605/202916235-19bd8b34-11c7-4508-bdc7-e51ad1c52776.png)
+/[/y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0]/
 
 
 In above example problem p(𝑥) and q(𝑥) are undefined at 𝑥 = 0 but we can still 
