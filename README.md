@@ -15,7 +15,7 @@ fails. Such points are called regular singular points.
 
 <p align="center">
 Consider an ODE:
-$y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0$
+# $y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0$
 </p>
 
 In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but we can still apply the Frobenius method if $𝑥_0$ is a regular singular point of ODE. The solution, according to Frobenius, is by $y(x)=\sum{_{n=0}}^{{\infty}}{a_nx^{n+r}=x^r(a_0+a_1x+\ldots)}$.
