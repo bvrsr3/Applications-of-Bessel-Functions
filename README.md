@@ -66,7 +66,11 @@ Based on the above assumptions, it gives
 $\frac{\partial^2\theta}{\partial r^2}+\frac{1\partial\theta}{r\partial r}+\frac{q^m}{k}=\frac{1\partial\theta}{\propto\partial t}$
 
 Boundary and initial conditions:
-![image](https://user-images.githubusercontent.com/111849605/202916698-af4de2b0-91d0-48af-802c-f905b65733be.png)
+[1] $\frac{\partial\theta\left(0,t\right)}{\partial r}=0\ or\ \theta\left(0,t\right)=finite\ $
+
+[2] $-k\frac{\partial\theta\left(r_0,t\right)}{\partial r}=h\theta\left(r_0,t\right)$
+
+[3] $θ(r,t = 0) = T_i - T_\infty $
 
 Solution:
 Since the differential equation s non-homogeneous, we assume a solution of 
