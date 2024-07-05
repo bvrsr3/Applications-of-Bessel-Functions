@@ -177,4 +177,4 @@ Hence, the complete solution, expressed in dimensionless form, is
 $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right) + \frac{1}{T_i-T_\infty} \sum{_{k=1}^{\infty}}a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
 
 The above equation is plotted as a contour with respect to time and space for $Bi = 3$
-![bessel](https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/c706c2c4-9af8-496b-8c2e-92cf3367566e)
+![Bessel_output1](https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0)
