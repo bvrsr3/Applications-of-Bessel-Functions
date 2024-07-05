@@ -26,6 +26,7 @@ The Bessel function of the first kind of mth order is given by:
 $J_m(x)$ = 
 ![image](https://user-images.githubusercontent.com/111849605/202916125-974ac718-c023-4ff6-a9f2-b47e2b9ed031.png)
 
+\big
 $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 
 The behaviour of the Bessel functions of first kind 𝐽𝑚 of order ‘m’ are shown below:
