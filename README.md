@@ -42,9 +42,7 @@ A general solution of Bessel’s function for the Bessel ODE is given by:
 $𝑦(𝑥) = 𝐶_1 𝐽_𝑚 + 𝐶_2 𝑌_m$
 </p>
 
-<p align="center">
 ## APPLICATION: CYLINDER WITH ENERGY GENERATION
-</p>
 
 A long solid cylinder of radius $r_0$ is initially at uniform temperature $T_i$. Electricity is suddenly passed through the cylinder, resulting in a volumetric heat generation rate of $q_m$. The cylinder is cooled by convection at its surface. The heat transfer coefficient is considered as $h$, and the ambient temperature is considered as $T_\infty$. The objective is to determine the transient temperature profile of the cylinder and its evolution.
 
@@ -100,9 +98,13 @@ To solve equations (c) and (d), we need two boundary conditions for each and an 
 
 <p align="center">
 $\frac{\partial\varphi(0,t)}{\partial r}+\frac{d\emptyset(0)}{dr}=0$
+</p>
 
+<p align="center">
 Let $\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi(0,t)=finite\$ ---(c-1)
+</p>
 
+<p align="center">
 Thus $\frac{d\emptyset(0)}{dr}=0$ ---(d-1)
 </p>
 
@@ -113,83 +115,100 @@ $-k\frac{\partial\varphi\left(r_o,t\right)}{\partial r}=h\varphi(r_o,t)$ ---(c-2
 $-k\frac{d\emptyset\left(r_o\right)}{\partial r}=h\emptyset(r_o)$ ---(d-2)
 </p>
 
-<p align="center">
-Now, the initial condition gives
 
+Now, the initial condition gives
+<p align="center">
 $\varphi\left(r,0\right)=\left(T_i-T_\infty\right)-\emptyset(r)$ ---(c-3)
 </p>
 
-<p align="center">
-Integrating (d) gives
 
+Integrating (d) gives
+<p align="center">
 $\emptyset\left(r\right)=-\frac{q^m}{4k}r^2+c_1lnr+c_2$  ---(3)
 </p>
 
-<p align="center">
-Equation (c) is solved by the method of separation of variables. Assume a product solution of the form
 
+Equation (c) is solved by the method of separation of variables. Assume a product solution of the form
+<p align="center">
 $\varphi\left(r,t\right)=R\left(r\right)\tau\left(t\right)$ ---(f)
 </p>
 
 Substituting (f) into (c), separating variables, and setting the resulting equation 
 equal to a constant, $±(λ_k)^2$, gives
 
+<p align="center">
 $\frac{d^2R_k}{dr^2}+\frac{1dR_k}{rdr}\ \mp\lambda_k^2R_k=0$ ---(g)
 
 $\frac{d^2\tau_k}{dt}\ \mp\lambda_k^2{\alpha\tau}_k=0$ ---(h)
+</p>
 
 Since the r-variable has two homogeneous conditions, the plus sign must be 
 selected in (g). Equations (g) and (h) become
 
+<p align="center">
 $\frac{d^2R_k}{dr^2}+\frac{1dR_k}{rdr}+\lambda_k^2R_k=0$ ---(i)
 
 $\frac{d^2\tau_k}{dt}+\lambda_k^2{\alpha\tau}_k=0$ ---(j)
+</p>
 
 Solutions to the ODE (i) are given by general Bessel representation, and (ii) is exponential decay:
-
+<p align="center">
 $R_k\left(r\right)=A_kJ_0\left(\lambda_kr\right)+B_kY_0\left(\lambda_kr\right)$ ---(k)
-
+</p>
 and 
 
+<p align="center">
 $\tau_k\left(t\right)=C_k\exp(-\lambda_k^2\alpha t)$ ---(l)
+</p>
+
 
 Application to boundary and initial conditions.
 Conditions (c-1) and (c-2) give
+<p align="center">
 $𝐵_𝑘 = 0$
- and
+</p>
+and
+<p align="center">
 $BiJ_0(\lambda_kr_0)=\ (\lambda_kr_0)J_1(\lambda_kr_0)$ ---(m)
-Where Bi is the Biot number defined as Bi = hr_0 / k. The roots of $m$ give the 
+</p>
+Where Bi is the Biot number defined as $Bi = hr_0 / k$. The roots of $m$ give the 
 constants $λ_k$. Substituting (k) and (l) into (f) and summing all solutions
 
+<p align="center">
 $\mathrm{\Psi}(r-t)\ =\sum{_{k=1}^{\infty}}{a_k\exp{(-{\lambda_k}^2\alpha t)}J_0(\lambda_kr).}$ ---(n)
+</p>
 
 Returning to solution (e) for $ϕ(r)$, boundary conditions (d-1) and (d-2) give the constants $C_1$ and $C_2$. Thus (e) becomes
-
+<p align="center">
 $\phi\left(r\right)=\frac{q^m}{4k}\left({r_0}^2-r^2\right)+\frac{q^mr_0}{2h}$ ---(o)
-
+</p>
 Application of the non-homogeneous initial condition (c-3) yields
-
+<p align="center">
 $\left(T_i-T_\infty\right)-\phi\left(r\right)\ =\sum{_{k=1}^{\infty}}{a_kJ_0\left(\lambda_kr\right).}$ ---(p)
+</p>p
 
 The characteristic functions $J_0(λ_kr)$ in equation (p) are solutions to (i). This is a 
-Sturm-Liouville equation guarantees that there are infinitely many eigenvalues, and the function is orthogonal when the boundary conditions are 
-homogeneous w.r.t. weight function $w(r) = r$.
-Multiplying both sides of (p) by $J_0(λ_kr)r dr$, integrating from $r =0$ to $r =r_0$ and invoking orthogonality gives $a_k$
+Sturm-Liouville equation guarantees that there are infinitely many eigenvalues, and the function is orthogonal when the boundary conditions are homogeneous w.r.t. weight function $w(r) = r$. Multiplying both sides of (p) by $J_0(λ_kr)r dr$, integrating from $r =0$ to $r =r_0$ and invoking orthogonality gives $a_k$
 
+<p align="center">
 $a_k=\frac{2\lambda_k\int_{0}^{r_0}{\left[\left(T_i-T_\infty\right)-\phi(r)\right]\ J_0\left(\lambda_kr\right)rdr}}{\int_{0}^{r_0}{\ {J_0}^2\left(\lambda_kr\right)rdr}}$ ---(q)
+</p>
 
 Substituting (o) into (q) and evaluating the integral gives,
 
+<p align="center">
 $a_k=\ \frac{2(\lambda_kr_0)(T_i-T_\infty)}{({Bi}^2+\lambda_k^2r_0^2)J_0^2(\lambda_kr_0)}\{[1-\frac{q^mr_0^2}{k(T_i-T_\infty)}(\frac{1}{2Bi}+\frac{1}{\lambda_k^2r_0^2})]J_1(\lambda_kr_0)+\frac{q^mr_0^2}{k(T_i-T_\infty)}\frac{J_0(\lambda_kr_0)}{(\lambda_kr_0)}\}$
+</p>
 
 Complete Solution:
 Hence, the complete solution, expressed in dimensionless form, is
 
+<p align="center">
 $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right) + \frac{1}{T_i-T_\infty} \sum{_{k=1}^{\infty}}a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
+</p>
 
 The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For more details, refer to the Python file.
 
-</font>
 <div align="center">
  <img src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0">
 </div>
