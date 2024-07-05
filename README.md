@@ -62,7 +62,7 @@ To make the convection boundary condition homogeneous, we introduce the
 following temperature variable
 $θ (r,t) = T(r,t) -$ $T_\infty$ 
 
-Based on the above assumptions, it gives
+Based on the above assumptions, the governing equation is:
 
 $\frac{\partial^2\theta}{\partial r^2}+\frac{1\partial\theta}{r\partial r}+\frac{q^m}{k}=\frac{1\partial\theta}{\propto\partial t}$ ---(A)
 
@@ -85,7 +85,7 @@ variable. Substituting $(a)$ into eq. $(A)$
 
 $\frac{\partial^2\varphi}{\partial r^2}+\frac{1\partial\varphi}{r\partial r}+\frac{d^2\emptyset}{dr^2}+\frac{1d\emptyset}{rdr}+\frac{q^m}{k}=\frac{1\partial\varphi}{\propto\partial t}$ ---(b)
 
-The next step is to split (b) into two equations, one for Ψ(r-t) and the other 
+The next step is to split (b) into two equations, one for Ψ(r,t) and the other 
 for ϕ(r). Let
 
 $\frac{∂^2φ}{∂r^2}+\frac{1}{r}\frac{∂φ}{∂r}= \frac{1}{\alpha}\frac{∂φ}{∂t}$  ---(c)
@@ -160,7 +160,7 @@ Application of the non-homogeneous initial condition (c-3) yields
 
 $\left(T_i-T_\infty\right)-\phi\left(r\right)\ =\sum{_{k=1}^{\infty}}{a_kJ_0\left(\lambda_kr\right).}$ ---(p)
 
-The characteristic functions J0 ((λ_k)*r) in equation (p) are solutions to (i). This is a 
+The characteristic functions $J_0(λ_kr)$ in equation (p) are solutions to (i). This is a 
 Sturm-Liouville equation guarantees that there are infinitely many eigenvalues, and the function is orthogonal when the boundary conditions are 
 homogeneous w.r.t. weight function $w(r) = r$.
 Multiplying both sides of (p) by $J_0(λ_kr)r dr$, integrating from $r =0$ to $r =r_0$ and invoking orthogonality gives $a_k$
