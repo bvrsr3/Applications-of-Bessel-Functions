@@ -1,18 +1,14 @@
 # Bessel-Function
 - This repository contains codes for plotting and visualizing Bessel functions and their applications:
 
-Several second-order ODEs of the form 𝒚'' + 𝒑(𝒙)𝒚' + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have Power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
-
-If coefficients p(x), q(x) and r(x) are functions instead of constant coefficients. 
-Further, if they must have valid Taylor series expansion about point 𝑥0, means they 
-must be continuously differentiable about that point i.e. they are analytical at that 
-point.
+Several second-order ODEs of the form 𝒚'' + 𝒑(𝒙)𝒚' + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
+Coefficients p(x), q(x) and r(x) can be functions instead of constant coefficients. Further, if they have valid Taylor series expansion about point $x_0$, it implies that they must be continuously differentiable about that point i.e. they are analytical at that point.
 If the coefficients p(x), q(x), r(x) are not analytical at point 𝑥0 but if we still require 
 a power series solution at that point, in order to exploit the larger radius of 
-convergence, we use Frobenius method. Frobenius methods masks the point of 
-singularity, thereby creating feasible solution at which the power series method 
+convergence, we use the Frobenius method. Frobenius method masks the point of 
+singularity, thereby creating a feasible solution at which the power series method 
 fails. Such points are called regular singular points.
-Consider an example ODE:
+Consider an ODE:
 
 ![image](https://user-images.githubusercontent.com/111849605/202916235-19bd8b34-11c7-4508-bdc7-e51ad1c52776.png)
 
