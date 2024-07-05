@@ -60,10 +60,11 @@ Assumptions:
 Governing Equations:
 To make the convection boundary condition homogeneous, we introduce the 
 following temperature variable
-$θ (r,t) = T(r,t) -$ $T_\infty$
+$θ (r,t) = T(r,t) -$ $T_\infty$ 
 
 Based on the above assumptions, it gives
-$\frac{\partial^2\theta}{\partial r^2}+\frac{1\partial\theta}{r\partial r}+\frac{q^m}{k}=\frac{1\partial\theta}{\propto\partial t}$
+
+$\frac{\partial^2\theta}{\partial r^2}+\frac{1\partial\theta}{r\partial r}+\frac{q^m}{k}=\frac{1\partial\theta}{\propto\partial t}$ ---(A)
 
 Boundary and initial conditions:
 
@@ -75,24 +76,23 @@ Boundary and initial conditions:
 
 
 Solution:
-Since the differential equation is non-homogeneous, we assume a solution of 
-the form $𝜃(𝑟,𝑡) = 𝜑(𝑟,𝑡) + ∅(𝑟)$       (a)
+Since the differential equation is non-homogeneous, we assume a solution of the form 
+
+$𝜃(𝑟,𝑡) = 𝜑(𝑟,𝑡) + ∅(𝑟)$       ---(a)
 
 Note that $Ψ(r-t)$ depends on two variables while $ϕ(r)$ depends on one 
 variable. Substituting $(a)$ into eq. $(A)$
 
-![image](https://user-images.githubusercontent.com/111849605/202916775-2f6bba63-c6d3-427b-a271-5f4f25a00214.png)   (b)
-
-
-
+$\frac{\partial^2\varphi}{\partial r^2}+\frac{1\partial\varphi}{r\partial r}+\frac{d^2\emptyset}{dr^2}+\frac{1d\emptyset}{rdr}+\frac{q^m}{k}=\frac{1\partial\varphi}{\propto\partial t}$ ---(b)
 
 The next step is to split (b) into two equations, one for Ψ(r-t) and the other 
-for ϕ(r). Let..
+for ϕ(r). Let
 
-![image](https://user-images.githubusercontent.com/111849605/202916818-234dcd21-bb41-4d11-ba03-ad559e0b231a.png)  (c)
-![image](https://user-images.githubusercontent.com/111849605/202916837-365981ec-514c-4567-be2e-fedc62962083.png)  (d)
+$∂2φ∂r2+1∂φr∂r=1∂φ∝∂t$ ---(c)
 
-To solve equations (c) and (d) we need two boundary conditions for each 
+$\frac{d^2\emptyset}{dr^2}+\frac{1d\emptyset}{rdr}+\frac{q^m}{k} = 0$  ---(d)
+
+To solve equations (c) and (d), we need two boundary conditions for each 
 and an initial condition for (c). Substituting (a) into boundary condition (1)
 
 ![image](https://user-images.githubusercontent.com/111849605/202916857-25467901-9a32-4a32-8ce6-e0e984838731.png)
