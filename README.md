@@ -140,21 +140,21 @@ $R_k\left(r\right)=A_kJ_0\left(\lambda_kr\right)+B_kY_0\left(\lambda_kr\right)$ 
 
 and 
 
-$\tau_k\left(t\right)=C_k\exp\funcapply(-\lambda_k^2\alpha t)$ ---(l)
+$\tau_k\left(t\right)=C_k\exp(-\lambda_k^2\alpha t)$ ---(l)
 
 Application to boundary and initial conditions.
 Conditions (c-1) and (c-2) give
-𝐵_𝑘 = 0
+$𝐵_𝑘 = 0$
  and
-Bi*𝐽0*(𝜆_𝑘)𝑟0 = (𝜆_𝑘)*𝑟0*𝐽1*(𝜆_𝑘)*𝑟0                   (m)
-Where Bi is the Biot number defined as Bi = hr0 / k. The roots of (m) give the 
-constants λk. Substituting (k) and (l) into (f) and summing all solutions
+$BiJ_0(\lambda_kr_0)=\ (\lambda_kr_0)J_1(\lambda_kr_0)$ ---(m)
+Where Bi is the Biot number defined as Bi = hr_0 / k. The roots of $m$ give the 
+constants $λ_k$. Substituting (k) and (l) into (f) and summing all solutions
 
-![image](https://user-images.githubusercontent.com/111849605/202917491-935c8203-346d-494b-88a9-bba8b48b4727.png)
+$\mathrm{\Psi}(r-t)\ =\sum_{k=1}^{\infty}{a_k\exp{(-{\lambda_k}^2\alpha t)}J_0(\lambda_kr).}$ ---(n)
 
 Application of the non-homogeneous initial condition (c-3) yields
 
-![image](https://user-images.githubusercontent.com/111849605/202917526-28953577-6e23-4583-a7f6-d2c00d55b6ce.png)
+$\left(T_i-T_\infty\right)-\phi\left(r\right)\ =\sum_{k=1}^{\infty}{a_kJ_0\left(\lambda_kr\right).}$ ---(p)
 
 The characteristic functions J0 ((λ_k)*r) in equation (p) are solutions to (i). This is a 
 Sturm-Liouville equation that guarantees that there are infinitely many eigen 
