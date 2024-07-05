@@ -1,4 +1,5 @@
 # Bessel-Function
+<font size="15">
 - This repository contains codes for plotting and visualizing Bessel functions and their applications:
 
 Several second-order ODEs of the form 𝒚'' + 𝒑(𝒙)𝒚' + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
@@ -177,6 +178,7 @@ Hence, the complete solution, expressed in dimensionless form, is
 $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right) + \frac{1}{T_i-T_\infty} \sum{_{k=1}^{\infty}}a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
 
 The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For more details, refer to the Python file.
+</font>
 <div align="center">
  <img src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0">
 </div>
