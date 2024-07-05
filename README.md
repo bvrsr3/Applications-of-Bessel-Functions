@@ -21,17 +21,17 @@ In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but 
 $𝑥_0$ is the regular singular point of $y^{\prime\prime}+p\left(x\right)y^\prime+q\left(x\right)y=0$ if $(𝑥 − 𝑥_0)𝑝(𝑥)$ and $(𝑥 − 𝑥_0)^2𝑞(𝑥)$ exists and has valid Taylor expansion about $𝑥_0$. The exponent r (may be real or complex) number should be chosen such that $𝑎_0 ≠ 0$. Now, there exists a class of 2nd order, linear ODEs with variable coefficients of the form: 
 $x^2y^{\prime\prime}+xy^\prime+{(x}^2-\ m^2)y=0$
 
-The Bessel function of the first kind of mth order is given by:
+The Bessel function of the first kind of $m^{th}$ order is given by:
 
 $J_m(x) = \sum{_{l=0}^{\infty}}\frac{(-1)^l}{2^{2l+m}l!(m+l)!}x^{2l+m}$ 
 
 $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 
-The behaviour of the Bessel functions of first kind 𝐽𝑚 of order ‘m’ are shown below:
+The behaviour of the Bessel functions of first kind $J_m$ of order ‘m’ are shown below:
 
 ![image](https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png)
 
-The behaviour of the Bessel functions of second kind $𝑌_𝑚$ of order ‘m’ are shown below:
+The behaviour of the Bessel functions of second kind $Y_𝑚$ of order ‘m’ are shown below:
 
 ![image](https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png)
 
@@ -95,9 +95,11 @@ $\frac{d^2\emptyset}{dr^2}+\frac{1d\emptyset}{rdr}+\frac{q^m}{k} = 0$  ---(d)
 To solve equations (c) and (d), we need two boundary conditions for each 
 and an initial condition for (c). Substituting (a) into boundary condition (1)
 
-![image](https://user-images.githubusercontent.com/111849605/202916857-25467901-9a32-4a32-8ce6-e0e984838731.png)
+$\frac{\partial\varphi(0,t)}{\partial r}+\frac{d\emptyset(0)}{dr}=0$
 
-![image](https://user-images.githubusercontent.com/111849605/202916914-895f8fef-e4f2-4129-bc00-044e6f9f7e1c.png)
+$\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi\left(0,t\right)=finite\ $ ---(c-1)
+
+Thus $\frac{d\emptyset(0)}{dr}=0$ ---(d-1)
 
 ![image](https://user-images.githubusercontent.com/111849605/202916978-cfed8d9d-5ebb-434d-9e81-127fdb314762.png)
 
