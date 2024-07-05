@@ -36,7 +36,7 @@ The behaviour of the Bessel functions of second kind $𝑌_𝑚$ of order ‘m�
 ![image](https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png)
 
 A general solution of Bessel’s function for the Bessel ODE is given by 
-𝑦(𝑥) = 𝐶_1 𝐽_𝑚 + 𝐶_2 𝑌_m
+$𝑦(𝑥) = 𝐶_1 𝐽_𝑚 + 𝐶_2 𝑌_m$
 
 APPLICATION: CYLINDER WITH ENERGY 
 GENERATION
