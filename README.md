@@ -11,7 +11,7 @@ convergence, we use the Frobenius method. The Frobenius method masks the point o
 singularity, thereby creating a feasible solution at which the power series method 
 fails. Such points are called regular singular points.
 
-<p style="text-align: center;">
+<p align="center">
 Consider an ODE:
 $y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0$
 </p>
