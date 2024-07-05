@@ -23,7 +23,8 @@ $x^2y^{\prime\prime}+xy^\prime+{(x}^2-\ m^2)y=0$
 
 The Bessel function of the first kind of mth order is given by:
 
-$J_m(x) = \sum_{l=0}^{\infty}\frac{(-1)^l}{2^{2l+m}l!$
+$J_m(x) = \sum_{l=0}^{\infty}\frac{(-1)^l}{2^{2l+m}l!(m+l)!}x^{2l+m}$ 
+
 $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 
 The behaviour of the Bessel functions of first kind 𝐽𝑚 of order ‘m’ are shown below:
