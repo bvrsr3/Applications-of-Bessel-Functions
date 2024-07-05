@@ -1,8 +1,8 @@
 # Bessel-Function
 - This repository contains codes for plotting and visualizing Bessel functions and its applications -
+$M_i$
 
-
-Several second order ODEs of the form 𝒚
+Several second-order ODEs of the form 𝒚
 ′′ + 𝒑(𝒙)𝒚
 ′ + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of 
 practical importance have Power series solution ![image](https://user-images.githubusercontent.com/111849605/202916187-f7610de8-73a3-4251-8c33-2c582ec94679.png)
