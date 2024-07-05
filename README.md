@@ -1,5 +1,6 @@
 # Bessel-Function
 
+<font size="25">
 - This repository contains codes for plotting and visualizing Bessel functions and their applications:
 
 Several second-order ODEs of the form 𝒚'' + 𝒑(𝒙)𝒚' + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
@@ -12,12 +13,10 @@ convergence, we use the Frobenius method. The Frobenius method masks the point o
 singularity, thereby creating a feasible solution at which the power series method 
 fails. Such points are called regular singular points.
 
-<font size="25">
 <p align="center">
 Consider an ODE:
 $y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0$
 </p>
-</font>
 
 In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but we can still apply the Frobenius method if $𝑥_0$ is a regular singular point of ODE. The solution, according to Frobenius, is by $y(x)=\sum{_{n=0}}^{{\infty}}{a_nx^{n+r}=x^r(a_0+a_1x+\ldots)}$.
 
@@ -181,6 +180,7 @@ $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-
 
 The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For more details, refer to the Python file.
 
+</font>
 <div align="center">
  <img src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0">
 </div>
