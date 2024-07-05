@@ -1,6 +1,5 @@
 # Bessel-Function
-- This repository contains codes for plotting and visualizing Bessel functions and its applications -
-$M_i$
+- This repository contains codes for plotting and visualizing Bessel functions and their applications:
 
 Several second-order ODEs of the form 𝒚
 ′′ + 𝒑(𝒙)𝒚
