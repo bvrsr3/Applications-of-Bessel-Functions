@@ -3,11 +3,9 @@
 
 Several second-order ODEs of the form 𝒚
 ′′ + 𝒑(𝒙)𝒚
-′ + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of 
-$y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
-practical importance have Power series solution ![image](https://user-images.githubusercontent.com/111849605/202916187-f7610de8-73a3-4251-8c33-2c582ec94679.png)
+′ + 𝒒(𝒙)𝒚 = 𝒓(𝒙) are of practical importance have Power series solution $y(x)=\sum{_{n=0}^{n=\infty}}(x-x_0)^n$
 
-if 
+If 
 coefficients p(x), q(x) and r(x) are functions instead of constant coefficients. 
 Further, if they must have valid Taylor series expansion about point 𝑥0, means they 
 must be continuously differentiable about that point i.e. they are analytical at that 
