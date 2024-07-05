@@ -101,45 +101,46 @@ Let $\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi(0,t)=finite\$ ---(c-
 
 Thus $\frac{d\emptyset(0)}{dr}=0$ ---(d-1)
 
-![image](https://user-images.githubusercontent.com/111849605/202916978-cfed8d9d-5ebb-434d-9e81-127fdb314762.png)
-
 Similarly, condition (2) gives
 
-![image](https://user-images.githubusercontent.com/111849605/202917007-ed29c56c-9371-4eea-8f6c-ea6f64fdc33d.png)
+$-k\frac{\partial\varphi\left(r_o,t\right)}{\partial r}=h\varphi(r_o,t)$ ---(c-2)
 
-![image](https://user-images.githubusercontent.com/111849605/202917022-0093bf68-a6c4-482b-a8e7-12b49d201bf8.png)
+$-k\frac{d\emptyset\left(r_o\right)}{\partial r}=h\emptyset(r_o)$ ---(d-2)
 
 Now, the initial condition gives
-𝜑(𝑟, 0) = (𝑇𝑖 − 𝑇∞) − ∅(𝑟)          (c-3)
+
+$\varphi\left(r,0\right)=\left(T_i-T_\infty\right)-\emptyset(r)$ ---(c-3)
 
 Integrating (d) gives
-∅(𝑟) = −(𝑞_𝑚/4𝑘)*𝑟^2 + 𝑐1𝑙𝑛𝑟 + 𝑐2        (e)
+
+$\emptyset\left(r\right)=-\frac{q^m}{4k}r^2+c_1lnr+c_2$  ---(3)
+
+Equation (c) is solved by the method of separation of variables. Assume a product solution of the form
+
+$\varphi\left(r,t\right)=R\left(r\right)\tau\left(t\right)$ ---(f)
 
 
-Equation (c) is solved by the method of separation of variables. Assume a product 
-solution of the form
-𝜑(𝑟,𝑡) = 𝑅(𝑟)𝜏(𝑡) (f)
 Substituting (f) into (c), separating variables, and setting the resulting equation 
-equal to a constant, ±(λ_k)^2, gives
+equal to a constant, $±(λ_k)^2$, gives
 
-![image](https://user-images.githubusercontent.com/111849605/202917183-d13aa5b0-274a-4ba2-b427-0407881fb6c8.png)
+$\frac{d^2R_k}{dr^2}+\frac{1dR_k}{rdr}\ \mp\lambda_k^2R_k=0$ ---(g)
 
-![image](https://user-images.githubusercontent.com/111849605/202917204-8166cbd1-d77f-4c07-ae46-22ae38c741b7.png)
+$\frac{d^2\tau_k}{dt}\ \mp\lambda_k^2{\alpha\tau}_k=0$ ---(h)
 
-ince the r-variable has two homogeneous conditions, the plus sign must be 
+Since the r-variable has two homogeneous conditions, the plus sign must be 
 selected in (g). Equations (g) and (h) become
 
-![image](https://user-images.githubusercontent.com/111849605/202917221-2104658c-0620-486d-95aa-530f3a4ca9e5.png)
+$\frac{d^2R_k}{dr^2}+\frac{1dR_k}{rdr}+\lambda_k^2R_k=0$ ---(i)
 
-![image](https://user-images.githubusercontent.com/111849605/202917234-ee908b3a-fc90-41c6-9767-7c7a7186b15e.png)
+$\frac{d^2\tau_k}{dt}+\lambda_k^2{\alpha\tau}_k=0$ ---(j)
 
-Solutions to the ODE (i) is given by general Bessel representation and (ii) is 
-exponential decay:
-𝑅_𝑘(𝑟) = (𝐴_𝑘)*𝐽0
-(𝜆_𝑘)*r + (𝐵_𝑘)*𝑌0*(𝜆_𝑘)*r               (k)
+Solutions to the ODE (i) are given by general Bessel representation, and (ii) is exponential decay:
+
+$R_k\left(r\right)=A_kJ_0\left(\lambda_kr\right)+B_kY_0\left(\lambda_kr\right)$ ---(k)
 
 and 
-𝜏_𝑘(𝑡) = (𝐶_𝑘)exp(−𝛼*𝑡*(𝜆_𝑘)^2)                    (l)
+
+$\tau_k\left(t\right)=C_k\exp\funcapply(-\lambda_k^2\alpha t)$ ---(l)
 
 Application to boundary and initial conditions.
 Conditions (c-1) and (c-2) give
