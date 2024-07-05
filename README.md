@@ -97,7 +97,7 @@ and an initial condition for (c). Substituting (a) into boundary condition (1)
 
 $\frac{\partial\varphi(0,t)}{\partial r}+\frac{d\emptyset(0)}{dr}=0$
 
-Let $\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi\left(0,t\right)=finite\ $ ---(c-1)
+Let $\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi(0,t)=finite\$ ---(c-1)
 
 Thus $\frac{d\emptyset(0)}{dr}=0$ ---(d-1)
 
