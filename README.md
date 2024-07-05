@@ -16,7 +16,7 @@ Consider an ODE:
 $y^{\prime\prime}+\frac{2}{x}y^\prime+\frac{1}{x^2}y=0$
 
 
-In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but we can still apply the Frobenius method if $𝑥_0$ is a regular singular point of ODE. The solution, according to Frobenius, is by $y(x)=\sum_{n=0}^{\infty}{a_nx^{n+r}=x^r(a_0+a_1x+\ldots)}$.
+In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but we can still apply the Frobenius method if $𝑥_0$ is a regular singular point of ODE. The solution, according to Frobenius, is by $y(x)=\sum{_{n=0}^{\infty}}{a_nx^{n+r}=x^r(a_0+a_1x+\ldots)}$.
 
 $𝑥_0$ is the regular singular point of $y^{\prime\prime}+p\left(x\right)y^\prime+q\left(x\right)y=0$ if $(𝑥 − 𝑥_0)𝑝(𝑥)$ and $(𝑥 − 𝑥_0)^2𝑞(𝑥)$ exists and has valid Taylor expansion about $𝑥_0$. The exponent r (may be real or complex) number should be chosen such that $𝑎_0 ≠ 0$. Now, there exists a class of 2nd order, linear ODEs with variable coefficients of the form: 
 $x^2y^{\prime\prime}+xy^\prime+{(x}^2-\ m^2)y=0$
