@@ -169,9 +169,9 @@ $a_k=\frac{2\lambda_k\int_{0}^{r_0}{\left[\left(T_i-T_\infty\right)-\phi(r)\righ
 
 Substituting (o) into (q) and evaluating the integral gives,
 
-$a_k=\ \frac{2\left(\lambda_kr_0\right)(T_i-T_\infty)}{({Bi}^2+\lambda_k^2r_0^2)J_0^2(\lambda_kr_0)}\left\{\left[1-\frac{q^mr_0^2}{k(T_i-T_\infty)}\left(\frac{1}{2Bi}+\frac{1}{\lambda_k^2r_0^2}\right)\right]J_1\left(\lambda_kr_0\right)+\frac{q^mr_0^2}{k(T_i-T_\infty)}\frac{J_0\left(\lambda_kr_0\right)}{\left(\lambda_kr_0\right)}\right\}$
+$a_k=\ \frac{2(\lambda_kr_0)(T_i-T_\infty)}{({Bi}^2+\lambda_k^2r_0^2)J_0^2(\lambda_kr_0)}\{[1-\frac{q^mr_0^2}{k(T_i-T_\infty)}(\frac{1}{2Bi}+\frac{1}{\lambda_k^2r_0^2})]J_1(\lambda_kr_0)+\frac{q^mr_0^2}{k(T_i-T_\infty)}\frac{J_0(\lambda_kr_0)}{(\lambda_kr_0)}\}$
 
 Complete Solution:
 Hence, the complete solution, expressed in dimensionless form, is
 
-$\frac{T\left(r,t\right)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)}\left[1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right]+\frac{1}{T_i-T_\infty}\sum_{k=1}^{\infty}{a_k\exp(-\lambda_k^2\alpha t)J_0\left(\lambda_kr\right)$
+$\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)}[1-\frac{r^2}{r_0^2}+\frac{2}{Bi}]+\frac{1}{T_i-T_\infty}\sum_{k=1}^{\infty}{a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
