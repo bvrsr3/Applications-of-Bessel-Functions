@@ -178,5 +178,5 @@ $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)}$
 
 $\left(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right) + $
 
-$\frac{1}{T_i-T_\infty} \sum{k=1}^{\infty}a_kexp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
+$\frac{1}{T_i-T_\infty} \sum{k=1}^{\infty}a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
 
