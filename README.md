@@ -49,7 +49,7 @@ $𝑦(𝑥) = 𝐶_1 𝐽_𝑚 + 𝐶_2 𝑌_m$
 A long solid cylinder of radius $r_0$ is initially at uniform temperature $T_i$. Electricity is suddenly passed through the cylinder, resulting in a volumetric heat generation rate of $q_m$. The cylinder is cooled by convection at its surface. The heat transfer coefficient is considered as $h$, and the ambient temperature is considered as $T_\infty$. The objective is to determine the transient temperature profile of the cylinder and its evolution.
 
 <div align="center">
-<ing src = "https://user-images.githubusercontent.com/111849605/202916632-87f27e67-30ce-47da-aca1-85c195ad8645.png">
+<img src = "https://user-images.githubusercontent.com/111849605/202916632-87f27e67-30ce-47da-aca1-85c195ad8645.png">
 </div>
 
 ### Assumptions:
