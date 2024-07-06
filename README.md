@@ -104,8 +104,9 @@ To solve equations (c) and (d), we need two boundary conditions for each and an 
 $\frac{\partial\varphi(0,t)}{\partial r}+\frac{d\emptyset(0)}{dr}=0$
 </p>
 
+Let
 <p align="center">
-Let $\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi(0,t)=finite\$ ---(c-1)
+$\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi(0,t)=finite\$ ---(c-1)
 </p>
 
 <p align="center">
@@ -217,7 +218,7 @@ Hence, the complete solution, expressed in dimensionless form, is
 $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-\frac{r^2}{r_0^2}+\frac{2}{Bi}\right) + \frac{1}{T_i-T_\infty} \sum{_{k=1}^{\infty}}a_k\exp(-\lambda_k^2\alpha t)J_0(\lambda_kr)$
 </p>
 
-The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For more details, refer to the Python file.
+The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For the implementation, refer to the Python file attached to the Application of Bessel function repository.
 
 <div align="center">
  <img src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0" width = "300" height = "300">
