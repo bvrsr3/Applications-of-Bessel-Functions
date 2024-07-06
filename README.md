@@ -31,12 +31,12 @@ $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 
 The behaviour of the Bessel functions of first kind $J_m$ of order ‘m’ are shown below:
 <div align="center">
-![image](https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png)
+<img src = "https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png"  width="500" height="600">
 </div>
 
 The behaviour of the Bessel functions of second kind $Y_𝑚$ of order ‘m’ are shown below:
 <div align="center">
-![image](https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png)
+<img src = "https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png"  width="500" height="600">
 </div>
 
 A general solution of Bessel’s function for the Bessel ODE is given by:
