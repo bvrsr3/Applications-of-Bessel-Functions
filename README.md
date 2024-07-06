@@ -92,7 +92,9 @@ $\frac{\partial^2\varphi}{\partial r^2}+\frac{1\partial\varphi}{r\partial r}+\fr
 The next step is to split (b) into two equations, one for Ψ(r,t) and the other for ϕ(r). Let
 <p align="center">
 $\frac{∂^2φ}{∂r^2}+\frac{1}{r}\frac{∂φ}{∂r}= \frac{1}{\alpha}\frac{∂φ}{∂t}$  ---(c)
+</p>
 
+<p align = "center">
 $\frac{d^2\emptyset}{dr^2}+\frac{1d\emptyset}{rdr}+\frac{q^m}{k} = 0$  ---(d)
 </p>
 
@@ -113,7 +115,9 @@ Thus $\frac{d\emptyset(0)}{dr}=0$ ---(d-1)
 Similarly, condition (2) gives
 <p align="center">
 $-k\frac{\partial\varphi\left(r_o,t\right)}{\partial r}=h\varphi(r_o,t)$ ---(c-2)
+</p>
 
+<p align = "center">
 $-k\frac{d\emptyset\left(r_o\right)}{\partial r}=h\emptyset(r_o)$ ---(d-2)
 </p>
 
@@ -140,16 +144,20 @@ equal to a constant, $±(λ_k)^2$, gives
 
 <p align="center">
 $\frac{d^2R_k}{dr^2}+\frac{1dR_k}{rdr}\ \mp\lambda_k^2R_k=0$ ---(g)
+</p>
 
+<p align = "center">
 $\frac{d^2\tau_k}{dt}\ \mp\lambda_k^2{\alpha\tau}_k=0$ ---(h)
 </p>
 
-Since the r-variable has two homogeneous conditions, the plus sign must be 
+Since the $r$-variable has two homogeneous conditions, the plus sign must be 
 selected in (g). Equations (g) and (h) become
 
 <p align="center">
 $\frac{d^2R_k}{dr^2}+\frac{1dR_k}{rdr}+\lambda_k^2R_k=0$ ---(i)
+</p>
 
+<p align = "center">
 $\frac{d^2\tau_k}{dt}+\lambda_k^2{\alpha\tau}_k=0$ ---(j)
 </p>
 
@@ -187,7 +195,7 @@ $\phi\left(r\right)=\frac{q^m}{4k}\left({r_0}^2-r^2\right)+\frac{q^mr_0}{2h}$ --
 Application of the non-homogeneous initial condition (c-3) yields
 <p align="center">
 $\left(T_i-T_\infty\right)-\phi\left(r\right)\ =\sum{_{k=1}^{\infty}}{a_kJ_0\left(\lambda_kr\right).}$ ---(p)
-</p>p
+</p>
 
 The characteristic functions $J_0(λ_kr)$ in equation (p) are solutions to (i). This is a 
 Sturm-Liouville equation guarantees that there are infinitely many eigenvalues, and the function is orthogonal when the boundary conditions are homogeneous w.r.t. weight function $w(r) = r$. Multiplying both sides of (p) by $J_0(λ_kr)r dr$, integrating from $r =0$ to $r =r_0$ and invoking orthogonality gives $a_k$
@@ -212,5 +220,5 @@ $\frac{T(r,t)-T_\infty}{T_i-T_\infty}=\frac{q^mr_0^2}{4k(T_i-T_\infty)} \left(1-
 The above equation is plotted as a contour with respect to time and space for $Bi = 3$. For more details, refer to the Python file.
 
 <div align="center">
- <img src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0">
+ <img src = "https://github.com/bvrsr3/Applications-of-Bessel-Functions/assets/137035712/52fcb6fd-1406-4347-b803-9ff8dbe491f0" width = "300" height = "300">
 </div>
