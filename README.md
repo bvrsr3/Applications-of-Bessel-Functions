@@ -106,7 +106,7 @@ $\frac{\partial\varphi(0,t)}{\partial r}+\frac{d\emptyset(0)}{dr}=0$
 
 Let
 <p align="center">
-$\frac{\partial\varphi(0,t)}{\partial r}=0\$ or $\varphi(0,t) = finite$ ---(c-1)
+$\frac{\partial\varphi(0,t)}{\partial r}=0$ or $\varphi(0,t) = finite$ ---(c-1)
 </p>
 
 <p align="center">
