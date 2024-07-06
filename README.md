@@ -31,7 +31,7 @@ $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 
 The behaviour of the Bessel functions of first kind $J_m$ of order ‘m’ are shown below:
 <div align="center">
-<img src = "https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png"  width="500" height="600">
+<img src = "https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png"  width="500" height="300">
 </div>
 
 The behaviour of the Bessel functions of second kind $Y_𝑚$ of order ‘m’ are shown below:
