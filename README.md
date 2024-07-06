@@ -30,13 +30,13 @@ $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 </p>
 
 The behaviour of the Bessel functions of first kind $J_m$ of order ‘m’ are shown below:
-<div align="center">0
+<div align="center">
 <img src = "https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png"  width="400" height="250">
 </div>
 
 The behaviour of the Bessel functions of second kind $Y_𝑚$ of order ‘m’ are shown below:
 <div align="center">
-<img src = "https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png"  width="500" height="600">
+<img src = "https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png"  width="400" height="250">
 </div>
 
 A general solution of Bessel’s function for the Bessel ODE is given by:
@@ -48,9 +48,9 @@ $𝑦(𝑥) = 𝐶_1 𝐽_𝑚 + 𝐶_2 𝑌_m$
 
 A long solid cylinder of radius $r_0$ is initially at uniform temperature $T_i$. Electricity is suddenly passed through the cylinder, resulting in a volumetric heat generation rate of $q_m$. The cylinder is cooled by convection at its surface. The heat transfer coefficient is considered as $h$, and the ambient temperature is considered as $T_\infty$. The objective is to determine the transient temperature profile of the cylinder and its evolution.
 
-<p align="center">
-![image](https://user-images.githubusercontent.com/111849605/202916632-87f27e67-30ce-47da-aca1-85c195ad8645.png)
-</p>
+<div align="center">
+<ing src = "https://user-images.githubusercontent.com/111849605/202916632-87f27e67-30ce-47da-aca1-85c195ad8645.png">
+</div>
 
 ### Assumptions:
 1. One-dimensional conduction
