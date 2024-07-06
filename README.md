@@ -17,8 +17,8 @@ In the above equation, $p(𝑥)$ and $q(𝑥)$ are undefined at $𝑥 = 0$, but 
 $y(x)=\sum{_{n=0}}^{{\infty}}{a_nx^{n+r}=x^r(a_0+a_1x+\ldots)}$.
 </p>
 
-$𝑥_0$ is the regular singular point of $y^{\prime\prime}+p\left(x\right)y^\prime+q\left(x\right)y=0$ if $(𝑥 − 𝑥_0)𝑝(𝑥)$ and $(𝑥 − 𝑥_0)^2𝑞(𝑥)$ exists and has valid Taylor expansion about $𝑥_0$. The exponent r (may be real or complex) number should be chosen such that $𝑎_0 ≠ 0$. Now, there exists a class of 2nd order, linear ODEs with variable coefficients of the form: 
-$x^2y^{\prime\prime}+xy^\prime+{(x}^2-\ m^2)y=0$
+$𝑥_0$ is the regular singular point of $y^{\prime\prime}+p\left(x\right)y^\prime+q\left(x\right)y=0$ if $(𝑥 − 𝑥_0)𝑝(𝑥)$ and $(𝑥 − 𝑥_0)^2𝑞(𝑥)$ exists and has valid Taylor expansion about $𝑥_0$. The exponent $r$ (may be real or complex) number should be chosen such that $𝑎_0 ≠ 0$. Now, there exists a class of 2nd order, linear ODEs with variable coefficients of the form: 
+$x^2y^{\prime\prime}+xy^\prime+{(x}^2-\ m^2)y=0$ which is called the Bessel's equation. Its solution is called the Bessel function.
 
 The Bessel function of the first kind of $m^{th}$ order is given by:
 <p align="center">
@@ -30,12 +30,14 @@ $Y_m\left(x\right)=\ \frac{J_m\left(x\right)\cos{\pi m}-J_{-m}(x)}{\sin{\pi m}}$
 </p>
 
 The behaviour of the Bessel functions of first kind $J_m$ of order ‘m’ are shown below:
-
+<div align="center">
 ![image](https://user-images.githubusercontent.com/111849605/202916473-6bd3e3f8-fbee-48f9-8d73-7e38f1ef11a9.png)
+</div>
 
 The behaviour of the Bessel functions of second kind $Y_𝑚$ of order ‘m’ are shown below:
-
+<div align="center">
 ![image](https://user-images.githubusercontent.com/111849605/202916498-5cf8a8ae-9a1b-4253-b5e2-7cfa3b497c5d.png)
+</div>
 
 A general solution of Bessel’s function for the Bessel ODE is given by:
 <p align="center">
