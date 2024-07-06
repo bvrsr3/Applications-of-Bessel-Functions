@@ -106,7 +106,7 @@ $\frac{\partial\varphi(0,t)}{\partial r}+\frac{d\emptyset(0)}{dr}=0$
 
 Let
 <p align="center">
-$\frac{\partial\varphi(0,t)}{\partial r}=0\ or\ \varphi(0,t)=finite\$ ---(c-1)
+$\frac{\partial\varphi(0,t)}{\partial r}=0\$ or$ \varphi(0,t)=finite\$ ---(c-1)
 </p>
 
 <p align="center">
@@ -211,7 +211,8 @@ Substituting (o) into (q) and evaluating the integral gives,
 $a_k=\ \frac{2(\lambda_kr_0)(T_i-T_\infty)}{({Bi}^2+\lambda_k^2r_0^2)J_0^2(\lambda_kr_0)}\{[1-\frac{q^mr_0^2}{k(T_i-T_\infty)}(\frac{1}{2Bi}+\frac{1}{\lambda_k^2r_0^2})]J_1(\lambda_kr_0)+\frac{q^mr_0^2}{k(T_i-T_\infty)}\frac{J_0(\lambda_kr_0)}{(\lambda_kr_0)}\}$
 </p>
 
-Complete Solution:
+### Complete Solution:
+
 Hence, the complete solution, expressed in dimensionless form, is
 
 <p align="center">
